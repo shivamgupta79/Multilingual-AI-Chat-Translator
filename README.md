@@ -29,7 +29,6 @@ A real-time multilingual chat translator built with Flask, Socket.IO, and the Gr
 
 ### 1. Clone the Repository
 
-```bash
 git clone https://github.com/shivamgupta79/Multilingual-AI-Chat-Translator.git
 cd Multilingual-AI-Chat-Translator
 2. Create & Activate Virtual Environment (Optional but Recommended)
@@ -65,9 +64,7 @@ Translated message is sent back to browser via WebSocket.
 Frontend updates UI with translation + reads out using SpeechSynthesis.
 
 🗂️ Project Structure
-bash
-Copy
-Edit
+
 📁 Multilingual-AI-Chat-Translator/
 │
 ├── app.py                 # Main Flask app
