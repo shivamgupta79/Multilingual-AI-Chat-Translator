@@ -1,4 +1,6 @@
 flask
-flask-socketio
-openai
+flask_socketio
+flask_login
 python-dotenv
+openai
+eventlet
