@@ -76,6 +76,7 @@ Frontend updates UI with translation + reads out using SpeechSynthesis.
 │
 └── static/
     └── (Optional: for custom JS/CSS if needed)
+    
 🎤 Voice Output
 The Speak button uses your browser’s speechSynthesis API to speak translated text aloud in the correct accent (langCode is selected based on language dropdown).
 
@@ -93,11 +94,8 @@ The Speak button uses your browser’s speechSynthesis API to speak translated t
 📄 License
 This project is open-source and available under the MIT License.
 
-
 ## 🧭 Flowchart (Visual Logic)
-
 Here's a text-based **flowchart** of the system logic:
-
 User opens app
 │
 ▼
