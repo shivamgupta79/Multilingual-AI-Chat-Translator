@@ -95,26 +95,5 @@ The Speak button uses your browser’s speechSynthesis API to speak translated t
 This project is open-source and available under the MIT License.
 
 ## 🧭 Flowchart (Visual Logic)
-Here's a text-based **flowchart** of the system logic:
-User opens app
-│
-▼
-Selects language + types message
-│
-▼
-Press "Translate" → Sends to backend via WebSocket
-│
-▼
-Flask receives → Forms translation prompt
-│
-▼
-Groq LLaMA 3 API processes and returns translation
-│
-▼
-Flask emits translated message back via WebSocket
-│
-▼
-Frontend updates UI:
-├─ Shows translated message
-├─ Adds to translation history
-└─ Triggers SpeechSynthesis to speak aloud
+![Gemini_Generated_Image_kg7bm5kg7bm5kg7b](https://github.com/user-attachments/assets/5eda0370-e8e7-4c87-aac6-141830429bf2)
+
